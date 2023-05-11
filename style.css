@@ -1,0 +1,170 @@
+html,body{
+    margin:0;
+    padding: 0;
+  
+}
+.container{
+    margin: auto ;
+   background-image: url("/images/n.png");
+   background-size: cover;
+    width: 100%;
+    
+}
+header{
+    background-color:#ff9090;
+}
+header h1,h2{
+    text-align: center;
+    color: #ffffff;
+}
+header > h2{
+    margin-top: -60px;
+    font-size: 35px;
+}
+
+.navbar {
+
+    overflow: hidden;
+    background-color: #ff6c6c; 
+  }
+  
+  .navbar a {left:100px;
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   
+  }
+  
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .subnav .subnavbtn {
+    background-color: #ff6c6c; 
+    border: none;
+   
+  }
+  
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: rgb(148, 62, 62);
+    border: none;
+  }
+  
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: rgb(255, 114, 114);
+    
+    z-index: 1;
+  }
+  
+  .subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: rgb(255, 127, 127);
+  }
+  
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+
+.logo{
+margin-top: -50px;
+margin-left: 400px;
+ 
+}
+.logo img{
+    height: 100px;
+    width:  100px;
+    border-radius: 50%;
+    border: 1px solid brown;
+}
+.box{
+    border-top-width:100%;
+    border: #a80909;
+}
+.hh{
+    height: 50px;
+    background-color: #ffaaaa;
+}
+.foundation h3{
+  color: white;
+  text-align: center;
+}
+.foundation{
+  border: 1px solid white;
+  border-radius:50px 50px 5px 5px
+}
+.top-products img{
+  border-radius: 30px;
+    height: 200px;
+    width:  200px;
+}
+.top-products h1{
+    text-align: center;
+    color:#5f001d;
+}
+.boxs {
+    display: flex;
+}
+article{
+  margin-right: 50px;
+margin-left: 50px;
+}
+.sale-products h3,.top-products h3{
+color: #5f001d;
+}
+.boxs div{
+    margin-left: 200px;
+}
+footer ul li{
+    list-style-type: none;
+}
+footer{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ff6c6c;
+    color: azure;
+}
+.arrow-top{
+    float: right;
+    margin-right: 50px;
+    font-size: 20px;
+  ;
+    margin-top: -50px;
+}
+.arrow-top > a{
+    font-size: 40px;
+      color: #eee
+}
+.menu-1{
+  padding: 0;
+  margin:0;
+  font-size: 14px;
+}
+.about{
+
+  color:rgb(255, 255, 255)
+}
+.about > p{
+  font-size: 45px;
+  margin: auto 40px;
+}
+.main-href{
+text-decoration: none;
+color: #ffffff;
+
+font-size: 40px;
+margin: auto;
+}
